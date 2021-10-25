@@ -1,0 +1,145 @@
+  body {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            background-color: rgb(27, 23, 23);
+        }
+
+        hr #line {
+            border-top: 0.5px solid rgb(177, 163, 163);
+        }
+
+        .maincont {
+            border: 1px solid white;
+            width: 400px;
+            height: 462px;
+            position: absolute;
+            left: 433px;
+            top: 99px;
+            background-color: rgb(34, 30, 30);
+            color: white;
+        }
+
+        .nav {
+            background-color: rgb(34, 30, 30);
+            color: white;
+        }
+
+        #pimg {
+            height: 40px;
+            width: 40px;
+            margin: 3px 0px -7px 12px;
+            border-radius: 50%;
+            border: 0.2px solid rgb(172, 167, 167);
+            cursor: pointer;
+        }
+
+        .dots i {
+            position: absolute;
+            color: rgb(255, 255, 255);
+            font-size: 19px;
+            transform: rotate(90deg);
+            position: absolute;
+            left: 371px;
+            margin: 12px 0px 0px 0px;
+            top: 3px;
+            cursor: pointer;
+        }
+
+
+        .name b {
+            position: absolute;
+            left: 66px;
+            top: 4px;
+            cursor: pointer;
+        }
+
+        .loc {
+            top: 24px;
+            position: absolute;
+            left: 65px;
+            cursor: pointer;
+        }
+
+        .poimg img {
+            position: absolute;
+            /* border: 2px solid red; */
+            width: 190px;
+
+            transform: rotate(-90deg);
+            left: 105px;
+            top: 6px;
+        }
+
+        .react {
+            /* border: 2px solid yellow; */
+            position: absolute;
+            top: 357px;
+            margin: 0px 0px 0px 13px;
+            font-size: 22px;
+        }
+
+        .react i {
+            margin: 0px 12px 0px 0px;
+            cursor: pointer;
+        }
+
+        .save {
+            /* border: 2px solid orange; */
+            display: inline-block;
+            position: absolute;
+            top: 357px;
+            font-size: 22px;
+            left: 365px;
+            cursor: pointer;
+        }
+
+        .like {
+            /* border: 2px solid purple; */
+            position: absolute;
+            top: 376px;
+            margin: -5px 0px 0px 14px;
+            cursor: pointer;
+        }
+
+        .comments {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            top: 395px;
+            left: 14px;
+            cursor: pointer;
+        }
+
+        .time {
+            display: inline-block;
+            /* border: 2px solid yellow; */
+            position: absolute;
+            top: 435px;
+            left: 16px;
+        }
+
+        .poimg i {
+            position: absolute;
+            left: 48%;
+            top: 45%;
+            opacity: 0;
+
+        }
+
+        .active.poimg i {
+            animation: heart 1s linear;
+        }
+
+        @keyframes heart {
+            0% {
+                opacity: 0;
+                transform: scale(0);
+
+            }
+
+            50% {
+                opacity: 1;
+                transform: scale(4);
+            }
+        }
